@@ -101,3 +101,8 @@ input#submitbutton {
 .aui-group>.aui-item+.aui-item {
   margin-top: 0.6em;
 }
+
+form.aui .checkbox>label, form.aui .radio>label {
+  color: #172b4d !important;
+  font-size: 1em;
+}
