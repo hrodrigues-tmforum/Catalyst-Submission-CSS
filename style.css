@@ -54,10 +54,10 @@
 ul#topics-parent {
   column-count: 3;
 }
-.aui-item.group-label{
-  font-weight: bold;
-  color: #000;
-  font-size: 1.3em;
+.aui-item.group-label label{
+  font-weight: bold !important;
+  color: #000 !important;
+  font-size: 1.3em !important;
 }
 
 .aui-group>.aui-item {
