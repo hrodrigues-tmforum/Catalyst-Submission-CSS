@@ -57,7 +57,9 @@ ul#topics-parent {
 
 .aui-group>.aui-item {
   display: block !important;
+  color: #000 !important; 
   font-size: 1.3em;
+  font-weight: bold;
 }
 
 .cata-tooltip {
