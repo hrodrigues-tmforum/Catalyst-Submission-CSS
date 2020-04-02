@@ -84,6 +84,6 @@ ul#topics-parent {
   visibility: visible;
 }
 
-#submitbutton{
+input#submitbutton {
   visibility: hidden;
 }
