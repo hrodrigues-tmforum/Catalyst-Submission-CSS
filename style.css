@@ -69,6 +69,7 @@ form.aui legend, form.aui label {
   position: relative;
   display: inline-block;
   border-bottom: 1px dotted black;
+  margin-bottom: 1em;
 }
 
 .cata-tooltip .cata-tooltiptext {
@@ -91,4 +92,12 @@ form.aui legend, form.aui label {
 
 input#submitbutton {
   visibility: hidden;
+}
+
+.aui-group {
+  margin-bottom: 2em;
+}
+
+.aui-group>.aui-item+.aui-item {
+  margin-top: 0.6em;
 }
