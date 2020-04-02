@@ -54,7 +54,7 @@
 ul#topics-parent {
   column-count: 3;
 }
-.aui-item.group-label label{
+form.aui legend, form.aui label {
   font-weight: bold !important;
   color: #000 !important;
   font-size: 1.3em !important;
