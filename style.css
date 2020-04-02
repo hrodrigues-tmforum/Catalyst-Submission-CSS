@@ -54,3 +54,8 @@
 ul#topics-parent {
   column-count: 3;
 }
+
+.aui-group>.aui-item {
+  display: block !important;
+  font-size: 1.3em;
+}
