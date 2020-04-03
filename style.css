@@ -20,7 +20,7 @@
 
 .tooltip .tooltiptext {
   visibility: hidden;
-  width: 600px;
+  width: 400px;
   background-color: #555;
   color: #fff;
   text-align: left;
@@ -33,7 +33,6 @@
   margin-left: -60px;
   opacity: 0;
   transition: opacity 0.3s;
-  font-size: 0.8em;
 }
 
 .tooltip .tooltiptext::after {
@@ -75,13 +74,13 @@ form.aui legend, form.aui label {
 
 .cata-tooltip .cata-tooltiptext {
   visibility: hidden;
-  width: 120px;
+  width: 500px;
   background-color: black;
   color: #fff;
   text-align: center;
   border-radius: 6px;
   padding: 5px 0;
-
+  font-size: 0.8em;
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
