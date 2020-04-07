@@ -30,7 +30,8 @@ form.aui legend, form.aui label {
 
 
 .cata-tooltiptext {
-  color: #CCC
+  color: #CCC;
+  font-size: 0.7em;
 }
 
 
