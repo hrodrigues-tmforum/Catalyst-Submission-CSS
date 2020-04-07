@@ -53,9 +53,9 @@ form.aui .checkbox>label, form.aui .radio>label {
 }
 
 .conf-macro.output-block {
-  border-top: 1px solid #ccc;
+  padding-bottom: 2em;
 }
 
 .aui-group.conf-macro.output-inline {
-  border-top: 1px solid #ccc;
+  padding-bottom: 2em;
 }
