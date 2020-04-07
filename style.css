@@ -31,7 +31,7 @@ form.aui legend, form.aui label {
 
 .cata-tooltiptext {
   color: #333;
-  font-size: 0.7em;
+  font-size: 0.8em;
 }
 
 
@@ -50,4 +50,8 @@ input#submitbutton {
 form.aui .checkbox>label, form.aui .radio>label {
   color: #172b4d !important;
   font-size: 1em;
+}
+
+.conf-macro.output-block {
+  border-top: 1px solid #ccc;
 }
