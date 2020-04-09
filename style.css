@@ -31,7 +31,7 @@ form.aui legend, form.aui label {
 
 .cata-tooltiptext {
   color: #333;
-  font-size: 0.8em;
+  font-size: 0.95em;
 }
 
 
@@ -52,9 +52,6 @@ form.aui .checkbox>label, form.aui .radio>label {
   font-size: 1em;
 }
 
-.conf-macro.output-block {
-  padding-bottom: 2em;
-}
 
 .aui-group.conf-macro.output-inline {
   padding-bottom: 2em;
