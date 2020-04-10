@@ -6,6 +6,7 @@
   bottom: 1em;
   z-index: 10;
   right: 1.5em;
+  transform: translateX(-5%);
 }
 .jira-issue {
     visibility: hidden;
@@ -60,4 +61,8 @@ form.aui .checkbox>label, form.aui .radio>label {
 /*.aui-group.conf-macro.output-inline {
   padding-bottom: 2em;
 }*/
+
+form#a1efd265-8cca-4242-933a-1f0990910d79 {
+  height: 0;
+}
 
