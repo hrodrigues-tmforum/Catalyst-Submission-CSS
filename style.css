@@ -2,6 +2,8 @@
     float: left;
     margin-left: 3em;
     margin-right: 3em;
+    position: absolute;
+    bottom: 1em;
 }
 .jira-issue {
     visibility: hidden;
@@ -56,3 +58,4 @@ form.aui .checkbox>label, form.aui .radio>label {
 .aui-group.conf-macro.output-inline {
   padding-bottom: 2em;
 }
+
