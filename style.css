@@ -95,6 +95,7 @@ form#a1efd265-8cca-4242-933a-1f0990910d79 {
   border-style: solid;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding: 0.3em;
+  font-size: medium;
 
 
 }
@@ -117,8 +118,13 @@ form#a1efd265-8cca-4242-933a-1f0990910d79 {
   border-style: solid;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding: 0.3em;
+  font-size:larger
 
 
+}
+
+#currentAddressSaved {
+  font-size: larger;
 }
 
 #loadingBar {
