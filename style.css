@@ -130,3 +130,19 @@ form#a1efd265-8cca-4242-933a-1f0990910d79 {
 .select.mediumField {
   height: 2.7em;
 }
+
+
+element.style {
+}
+#savedPopUp button {
+    /* position: absolute; */
+    /* bottom: 0; */
+    height: 3em;
+    background: transparent linear-gradient(to bottom, #df121e 0px, #df121f 100%) repeat scroll 0% 0%;
+    border: none;
+    text-shadow: none;
+    color: white;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
