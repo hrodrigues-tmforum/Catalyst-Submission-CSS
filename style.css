@@ -3,9 +3,10 @@
   margin-left: 3em;
   margin-right: 3em;
   position: fixed;
-  bottom: 1em;
+  bottom: 2em;
   z-index: 10;
-  right: 1.5em;
+  right: 0.5em;
+  width: 15em;
   transform: translateX(-5%);
 }
 .jira-issue {
@@ -40,8 +41,16 @@ form.aui legend, form.aui label {
 }
 
 
-input#submitbutton {
-  visibility: hidden;
+#submitbutton {
+  float: left;
+  margin-left: 3em;
+  margin-right: 3em;
+  position: fixed;
+  bottom: 0.4em;
+  z-index: 10;
+  right: 0.5em;
+  width: 15em;
+  transform: translateX(-5%);
 }
 
 .aui-group {
@@ -63,6 +72,39 @@ form.aui .checkbox>label, form.aui .radio>label {
 }*/
 
 form#a1efd265-8cca-4242-933a-1f0990910d79 {
+
   height: 0;
+
 }
 
+#savedPopUp {
+
+  display: none;
+  position: fixed;
+  background-color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30%;
+  height: 30%;
+
+}
+
+#submitWarningPopUp {
+
+  display: none;
+  position: fixed;
+  background-color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30%;
+  height: 30%;
+
+}
+
+#loadingBar {
+
+  display: none;
+
+}
