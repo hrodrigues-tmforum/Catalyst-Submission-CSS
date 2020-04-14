@@ -138,7 +138,8 @@ form#a1efd265-8cca-4242-933a-1f0990910d79 {
 }
 
 
-element.style {
+#firstStepSubmitButton {
+  width: 15em;
 }
 #savedPopUp button {
     /* position: absolute; */
