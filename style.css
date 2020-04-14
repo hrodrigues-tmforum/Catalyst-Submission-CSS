@@ -109,6 +109,6 @@ form#a1efd265-8cca-4242-933a-1f0990910d79 {
 
 }
 
-select#memberRole{
-  height: 2.7em !important;
+.select.mediumField {
+  height: 2.7em;
 }
