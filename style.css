@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+
 #savebutton{
   float: left;
   margin-left: 3em;
@@ -24,7 +26,6 @@ ul#topics-parent {
   column-count: 3;
 }
 form.aui legend, form.aui label {
-  font-weight: bold !important;
   color: #000 !important;
   font-size: 1.3em !important;
 }
@@ -37,7 +38,11 @@ form.aui legend, form.aui label {
 
 .cata-tooltiptext {
   color: #333;
-  font-size: 0.95em;
+  font-size: medium;
+}
+.cata-tooltiptext p{
+  color: #333;
+  font-size: medium;
 }
 
 
@@ -152,4 +157,138 @@ form#a1efd265-8cca-4242-933a-1f0990910d79 {
     color: #fff;
     text-decoration: none;
     font-weight: 600;
+}
+
+
+/* 
+  Multi Step User add form
+*/
+
+/* Style the form */
+#regForm {
+  background-color: #ffffff;
+  margin: 100px auto;
+  padding: 40px;
+  width: 70%;
+  min-width: 300px;
+}
+
+/* Style the input fields */
+.addUserInput {
+  padding: 10px;
+  width: 100%;
+  font-size: 17px;
+  font-family: Raleway;
+  border: 1px solid #aaaaaa;
+}
+
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+  background-color: #ffdddd;
+}
+
+/* Hide all steps by default: */
+.twoPhaseUserAddtab {
+  display: none;
+}
+
+/* Make circles that indicate the steps of the form: */
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbbbbb;
+  border: none;
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+/* Mark the active step: */
+.step.active {
+  opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color: #4CAF50;
+}
+#IndividualAdd{
+  display: none;
+}
+#IndividualAdd p{
+  font-size: medium;
+}
+#organizationToggleFields{
+  display: none;
+}
+#organizationToggleFields p{
+  font-size: medium;
+}
+form.aui .select {
+  padding: 0px 0px 0px 5px !important;
+  vertical-align: top;
+}
+.addTeamMembersHelpText{
+  font-size: medium;
+}
+
+/* new style */
+#content {
+    font-family: 'Lato', sans-serif;
+}
+#title-text a{ 
+    color: #323E48;
+    font-size: 30px;
+}
+#main-content {
+    color: #636569;
+}
+.page-metadata, .page-metadata ul li a:link, .page-metadata ul li a:focus, .page-metadata ul li a:hover, .page-metadata ul li a:active, .page-metadata ul li a:visited {
+    color: #98989A;
+    font-weight: 400;
+}
+.frommail h2 {
+    color: #323E48;
+    font-size: 14px;
+}
+form.aui legend, form.aui label {
+    color: #333333 !important;
+    font-size: 14px !important;
+    font-weight: bold;
+    display: block;
+}
+.cata-tooltip {
+    font-weight: normal;
+    color: #636569;
+}
+.aui-group>.aui-item+.aui-item {
+    padding-left: 0px;
+}
+form.aui .text, form.aui .password, form.aui .select, form.aui .aui-select2-container .select2-choices {
+    height: 35px;
+    padding: 4px 5px;
+    border-radius: 0;
+    outline: none;
+}
+
+form.aui div.radio input.radio, form.aui div.checkbox input.checkbox {
+   background-image: url("data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNSAyOSI+PGRlZnM+PHN0eWxlPi5jbHMtMXtmaWxsOiM5OTk5OWU7fS5jbHMtMntmaWxsOiNmZmY7fTwvc3R5bGU+PC9kZWZzPjx0aXRsZT5BcnRib2FyZCAxPC90aXRsZT48cmVjdCBjbGFzcz0iY2xzLTEiIHg9IjEiIHk9IjEiIHdpZHRoPSIxMyIgaGVpZ2h0PSIxMyIgcng9IjIiLz48cmVjdCBjbGFzcz0iY2xzLTEiIHg9IjEiIHk9IjE1IiB3aWR0aD0iMTMiIGhlaWdodD0iMTMiIHJ4PSIyIi8+PHBvbHlnb24gY2xhc3M9ImNscy0yIiBwb2ludHM9IjEwLjU2IDE4LjQ4IDYuMjUgMjIuOCA0LjQ0IDIwLjk4IDMuNTMgMjEuODggNS44MiAyNC4xNyA2LjI1IDI0LjUyIDExLjQ3IDE5LjM4IDEwLjU2IDE4LjQ4Ii8+PC9zdmc+");
+   -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    background-size: 15px;
+    background-position: left top;
+    top: 2px;
+    outline: none;
+}
+form.aui div.radio input.radio:checked, form.aui div.checkbox input.checkbox:checked {
+    background-position: top -14px left;
+}
+
+ .aui-button.aui-button-primary {
+    border-radius: 0;
+    padding: 10px 20px;
+    height: auto;
+    font-weight: bold;
 }
