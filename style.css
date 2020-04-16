@@ -226,3 +226,6 @@ form.aui .select {
   padding: 0px 0px 0px 5px !important;
   vertical-align: top;
 }
+.addTeamMembersHelpText{
+  font-size: medium;
+}
