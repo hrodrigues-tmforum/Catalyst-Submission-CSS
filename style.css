@@ -292,3 +292,7 @@ form.aui div.radio input.radio:checked, form.aui div.checkbox input.checkbox:che
     height: auto;
     font-weight: bold;
 }
+
+legend span {
+  display: none;
+}
