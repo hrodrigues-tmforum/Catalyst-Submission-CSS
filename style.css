@@ -309,7 +309,8 @@ legend span {
 /*Loader */
 
 .loader{
-	position: absolute;
+  display: none;
+	position: fixed;
 	width: 150px;
 	height: 20px;
 
