@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+
 #savebutton{
   float: left;
   margin-left: 3em;
@@ -228,4 +230,64 @@ form.aui .select {
 }
 .addTeamMembersHelpText{
   font-size: medium;
+}
+
+/* new style */
+#content {
+    font-family: 'Lato', sans-serif;
+}
+#title-text a{ 
+    color: #323E48;
+    font-size: 30px;
+}
+#main-content {
+    color: #636569;
+}
+.page-metadata, .page-metadata ul li a:link, .page-metadata ul li a:focus, .page-metadata ul li a:hover, .page-metadata ul li a:active, .page-metadata ul li a:visited {
+    color: #98989A;
+    font-weight: 400;
+}
+.frommail h2 {
+    color: #323E48;
+    font-size: 14px;
+}
+form.aui legend, form.aui label {
+    color: #333333 !important;
+    font-size: 14px !important;
+    font-weight: bold;
+    display: block;
+}
+.cata-tooltip {
+    font-weight: normal;
+    color: #636569;
+}
+.aui-group>.aui-item+.aui-item {
+    padding-left: 0px;
+}
+form.aui .text, form.aui .password, form.aui .select, form.aui .aui-select2-container .select2-choices {
+    height: 35px;
+    padding: 4px 5px;
+    border-radius: 0;
+    outline: none;
+}
+
+form.aui div.radio input.radio, form.aui div.checkbox input.checkbox {
+   background-image: url("data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNSAyOSI+PGRlZnM+PHN0eWxlPi5jbHMtMXtmaWxsOiM5OTk5OWU7fS5jbHMtMntmaWxsOiNmZmY7fTwvc3R5bGU+PC9kZWZzPjx0aXRsZT5BcnRib2FyZCAxPC90aXRsZT48cmVjdCBjbGFzcz0iY2xzLTEiIHg9IjEiIHk9IjEiIHdpZHRoPSIxMyIgaGVpZ2h0PSIxMyIgcng9IjIiLz48cmVjdCBjbGFzcz0iY2xzLTEiIHg9IjEiIHk9IjE1IiB3aWR0aD0iMTMiIGhlaWdodD0iMTMiIHJ4PSIyIi8+PHBvbHlnb24gY2xhc3M9ImNscy0yIiBwb2ludHM9IjEwLjU2IDE4LjQ4IDYuMjUgMjIuOCA0LjQ0IDIwLjk4IDMuNTMgMjEuODggNS44MiAyNC4xNyA2LjI1IDI0LjUyIDExLjQ3IDE5LjM4IDEwLjU2IDE4LjQ4Ii8+PC9zdmc+");
+   -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    background-size: 15px;
+    background-position: left top;
+    top: 2px;
+    outline: none;
+}
+form.aui div.radio input.radio:checked, form.aui div.checkbox input.checkbox:checked {
+    background-position: top -14px left;
+}
+
+ .aui-button.aui-button-primary {
+    border-radius: 0;
+    padding: 10px 20px;
+    height: auto;
+    font-weight: bold;
 }
