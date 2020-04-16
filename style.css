@@ -213,8 +213,14 @@ input.invalid {
 #IndividualAdd{
   display: none;
 }
+#IndividualAdd p{
+  font-size: medium;
+}
 #organizationToggleFields{
   display: none;
+}
+#organizationToggleFields p{
+  font-size: medium;
 }
 form.aui .select {
   padding: 0px 0px 0px 5px !important;
