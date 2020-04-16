@@ -298,7 +298,7 @@ legend span {
 }
 
 #main-content{
-  display: none;
+  display: block;
 }
 
 #loadingAnimation{
