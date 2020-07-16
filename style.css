@@ -86,13 +86,11 @@ strong{font-weight:bold;}
 .aui-button.aui-button-primary:hover,.aui-button.aui-button-primary:focus{background:-webkit-linear-gradient(left top, #c8101a, #c8101a);background:-o-linear-gradient(bottom right, #c8101a, #c8101a);background:-moz-linear-gradient(bottom right, #c8101a, #c8101a);background:linear-gradient(to bottom right, #c8101a, #c8101a);text-shadow:none;border:none;}
 }
 /*! CSS Used from: https://hrodrigues-tmforum.github.io/Catalyst-Submission-CSS/style.css */
-#savebutton{float:left;margin-left:3em;margin-right:3em;position:fixed;bottom:2em;z-index:10;right:0.5em;width:15em;transform:translateX(-5%);}
 ul#topics-parent{column-count:3;}
 form.aui legend,form.aui label{color:#000!important;font-size:1.3em!important;}
 .aui-group>.aui-item{display:block!important;}
 .cata-tooltiptext{color:#333;font-size:medium;}
 .cata-tooltiptext p{color:#333;font-size:medium;}
-#submitbutton{float:left;margin-left:3em;margin-right:3em;position:fixed;bottom:0.4em;z-index:10;right:0.5em;width:15em;transform:translateX(-5%);}
 .aui-group{margin-bottom:2em;}
 .aui-group>.aui-item+.aui-item{margin-top:0.6em;}
 form.aui .checkbox>label,form.aui .radio>label{color:#172b4d!important;font-size:1em;}
@@ -218,11 +216,7 @@ table.table th,table.table td{padding-top:1.1rem;padding-bottom:1rem;}
 
 
 #savebutton {
-	/* float: left; */
-	margin-left: 3em;
-	margin-right: 3em;
-	position: fixed;
-	/* bottom: 2em; */
+	position: absolute;
 	z-index: 10;
 	right: 0.5em;
 	width: 15em;
@@ -231,12 +225,7 @@ table.table th,table.table td{padding-top:1.1rem;padding-bottom:1rem;}
 }
 
 #submitbutton {
-	float: left;
-	/* margin-left: 3em; */
-	/* margin-right: 3em; */
 	position: absolute;
-	/* bottom: 0.01em; */
-	/* z-index: 10; */
 	right: 3em;
 	width: 15em;
 	transform: translateX(-5%);
